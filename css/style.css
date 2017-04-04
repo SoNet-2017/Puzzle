@@ -1,12 +1,19 @@
+
+
 body {
     font: 14px/22px Helvetica, Arial, sans-serif;
     color: #666;
     background: #D5BF86;
     width:100%;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #461220;
 }
 
 #banner {
@@ -14,8 +21,8 @@ body {
     min-width: 500px;
     height: 50px;
     margin-right: 70px;
-    border-radius: 0px 50px 50px 0px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 0 50px 50px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
     position: relative;
     top: -55px;
 }
@@ -45,14 +52,14 @@ h1 {
     color: rgba(247, 209, 160, 0.99);
     text-align: center;
     font-size: 45px;
-    margin-top: 0px;
+    margin-top: 0;
     padding: 65px;
     text-shadow: 2px 2px rgba(255, 204, 23, 0.3);
 }
 
 ul{
     text-align: right;
-    width: 175px;
+    width: 150px;
     position: relative;
 }
 
@@ -88,26 +95,40 @@ td {
 
 nav {
     width: 23%;
-    float: left;
-    position: relative;
-    top: -24px;
-    text-align: right;
+    position: fixed;
+    top: 180px;
+    margin-top: 20px;
 }
 
+nav ul{
+    list-style: none;
+    list-style-image: none;
+    font-size: 14px;
+}
 
+nav ul li {
+    padding: 5px 0;
+    line-height: 16px;
+}
+
+nav ul a {
+    color: #666;
+}
 
 section {
-    width: 75%;
-    float: right;
-    top: -212px;
-    left: 140px;
+    top: -30px;
+    margin-left: 200px;
+    margin-right: 95px;
+    margin-top: 15px;
     min-width: 600px;
     padding: 0px 30px 50px 30px;
     position: relative;
     background: #F1F1F1;
     border-radius: 3px;
     border: 1px solid #cbcbcb;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09),
+            inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5),
+             inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
 }
 
 .subsection {
@@ -118,9 +139,8 @@ section {
 }
 
 .wrapper {
-    width: 85%;
-    top: -20px;
-    position: relative;
+    width: 100%;
+    float: right;
 }
 
 footer {
@@ -132,4 +152,5 @@ footer {
     text-align: right;
     line-height: 16px;
 }
+
 
