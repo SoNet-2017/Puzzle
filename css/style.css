@@ -21,6 +21,7 @@ header{
     width: 100%;
 }
 
+/* STRISCIA ARANCIONE SOTTO LOGO SOCIAL NETWORK */
 #banner {
     background-color: #FDBB78;
     min-width: 500px;
@@ -31,6 +32,7 @@ header{
     position: relative;
 }
 
+/* LOGO SOCIAL NETWORK */
 #logo-banner{
     background-color: rgb(255, 245, 218);
     display: block;
@@ -40,6 +42,7 @@ header{
     min-width: 280px;
     max-width: 350px;
 }
+
 
 a.button{
     position: absolute;
