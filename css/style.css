@@ -37,7 +37,8 @@ header{
     margin: 0 auto;
     width: 30%;
     height: auto;
-    min-width: 300px;
+    min-width: 280px;
+    max-width: 350px;
 }
 
 a.button{
