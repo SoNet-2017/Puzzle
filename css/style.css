@@ -1,49 +1,81 @@
+html{
+    display: block;
+}
+
+
 body {
-    font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 14px/22px Helvetica, Arial, sans-serif;
     color: #666;
-    background: #eae6d1;
+    background: rgb(255, 245, 218);
     width:100%;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    display: block;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #461220;
+}
+
+header{
+    width: 100%;
 }
 
 #banner {
-    background-color: #ffcc00;
-    border-left-width: 30px;
-    margin-left: 70px;
+    background-color: #FDBB78;
+    min-width: 500px;
+    height: 50px;
     margin-right: 70px;
-    padding-top: 0px;
-    padding-bottom: 30px;
-    margin-top: -45px;
-    border-radius: 4px 4px 4px 4px;
+    border-radius: 0 50px 50px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    position: relative;
 }
 
-h1 { background-color: #227ac7;
-    color: white;
-    text-align: center;
-    font-size: 28px;
-    padding-top: 50px;
-    border-top-width: 50px;
-    margin-top: 0px;
-    padding: 50px;
+#logo-banner{
+    background-color: rgb(255, 245, 218);
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
+    min-width: 300px;
+}
 
+a.button{
+    position: absolute;
+    right: 54px;
+    top: 28px;
+    font-size: 9px;
+    line-height: 10px;
+    text-align: center;
+}
+
+#banner #logo {
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    right: 11px;
+    top: 7px;
+    display: block;
+    background: url(../images/puzzle-mini-logo.png);
+}
+
+h1 {
+    background-color: #461220;
+    color: rgba(247, 209, 160, 0.99);
+    text-align: center;
+    font-size: 45px;
+    margin-top: 0;
+    padding: 65px;
+    text-shadow: 2px 2px rgba(255, 204, 23, 0.3);
 }
 
 ul{
-    margin-left: 50px;
     text-align: right;
-    width: 250px;
+    width: 150px;
+    position: relative;
 }
 
-section{
-    background-color: white;
-    height: auto;
-    border-left-width: 80px;
-    margin-left: 370px;
-    margin-right: 70px;
-}
+
 
 h2 {
     font-size: 24px;
@@ -71,41 +103,73 @@ td {
     padding: 5px 10px;
     border-bottom: 1px solid #e5e5e5;
     border-right: 1px solid #ffcc00;
+    min-width: 200px;
 }
 
-nav {
-    width: 150px;
-    position: relative;
-    top: 0px;
-    left: 60%;
-    margin-left: -650px;
-    text-align: right;
+#membri{
+    min-width: 0;
+}
+
+li {
+    display:inline-block;
+}
+
+.nav{
+    position: fixed;
+}
+
+#nav_image{
+    display: none;
+}
+
+.nav ul{
+    list-style: none;
+    list-style-image: none;
+    font-size: 14px;
+}
+
+.nav ul li {
+    padding: 5px 0;
+    line-height: 16px;
+
+}
+
+.nav ul a {
+    color: #666;
+}
+
+.nav .current a {
+    color: #461220;
+}
+
+.nav li:hover a{
+    color: #8F2B27;
 }
 
 section {
-    top: -175px;
-    left: 20%;
-    width: 590px;
-    padding: 30px 30px 50px 30px;
-    margin: 20px 0;
+    margin-left: 200px;
+    margin-right: 95px;
+    margin-top: 15px;
+    padding: 0px 30px 50px 30px;
     position: relative;
-    background: #fbfbfb;
+    background: #F1F1F1;
     border-radius: 3px;
     border: 1px solid #cbcbcb;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5), inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09),
+    inset 0px 0px 2px 2px rgba(255, 255, 255, 0.5),
+    inset 0 0 5px 5px rgba(255, 255, 255, 0.4);
 }
 
 .subsection {
     border: 0;
     outline: none;
-    background: transparent url("../images/hr.gif") bottom center repeat-x;
+    background: transparent url("../images/hr2.gif") bottom center repeat-x;
     padding-bottom: 20px;
 }
 
 .wrapper {
-    width: 650px;
-    margin: 0 auto;
-    position: relative;
+    width: 100%;
+    float: right;
 }
 
 footer {
@@ -116,4 +180,101 @@ footer {
     bottom: 20px;
     text-align: right;
     line-height: 16px;
+}
+
+
+
+/* INIZIO CSS MOBILE */
+
+@media screen and (max-width: 880px) {
+
+
+    header {
+        position: fixed;
+        background-color: rgb(255, 245, 218);
+        width: 100%;
+    }
+
+    section{
+        margin: 1%;
+        position: static;
+        margin-top: 200px;
+    }
+
+    #banner {
+
+        width: 100%;
+        height: 50px;
+        min-width: 0px;
+        border-radius: 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+        position: fixed;
+        top: 120px;
+    }
+
+
+    .button {
+
+        display: none;
+    }
+
+    .nav {
+        position: fixed;
+        top: 110px;
+    }
+
+    #nav_image{
+        display: block;
+        position: fixed;
+    }
+
+    .image_nav{
+        width: 30px;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav ul {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .nav li {
+        display: none;
+        margin: 0;
+    }
+
+    .nav .current {
+        display: block;
+    }
+
+    .nav a {
+        display: block;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .nav .current a {
+        background: none;
+        color: #666;
+        width: 600px;
+    }
+
+    .nav ul:hover li{
+        background-color: #FDBB78;
+        display: block;
+
+    }
+
+    .nav ul:hover ul{
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    .nav ul:hover #other{
+        margin-left: 30px;
+    }
+
+
 }
