@@ -179,6 +179,10 @@ section {
     float: right;
 }
 
+#schema{
+    width: 230px;
+}
+
 footer {
     width: 180px;
     position: fixed;
