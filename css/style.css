@@ -179,8 +179,12 @@ section {
     float: right;
 }
 
-#schema{
-    width: 230px;
+img{
+    width: 100%;
+}
+
+#personas{
+    width: 10%;
 }
 
 footer {
