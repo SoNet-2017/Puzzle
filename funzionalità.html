@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Puzzle - funzionalità </title>
+
+    <!-- Link per usare Bootstrap -->
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="styles/bootstrap/bootstrap-theme.css">
+    <link rel="stylesheet" href="styles/custom.css">
+</head>
+
+<body>
+
+<!-- navigation bar -->
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="intro.html">Puzzle</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+                <li><a href="intro.html">Intro</a></li>
+                <li><a href="concept.html">Concept</a></li>
+                <li class="active"> <a href="funzionalita.html">Funzionalità</a></li>
+                <li><a href="cosaDicono.html">Dicono di noi </a></li>
+                <li><a href="noi.html">Chi siamo</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- fine navigation bar -->
+<div class="subsection">
+    <h2 id="funzionalita-e-architettura">Funzionalità e architettura</h2>
+
+    <h3 id="funzionalita-complete-del-social-network"> <br> Funzionalità complete del social network</h3>
+
+    <!--<p>Inserire una tabella in cui sono elencate (ad alto livello) TUTTE le funzionalità del vostro social network, anche quelle che
+      non compariranno nel prototipo.</p> -->
+
+
+    <p> <br>Targert principale: <b> GENITORI </b> </p>
+
+    <div style="overflow-x:auto"> <!--TABELLE COSTANTI, AGGIUNTA DI CURSORE PER SCORRERE-->
+        <table>
+            <thead>
+            <tr>
+                <th>Funzionalità complete</th>
+                <th>Descrizione</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td><b>Organizza gruppi di studio ed eventi</b></td>
+                <td>Il genitore può organizzare gruppi di studio, fornendo il proprio supporto ai bambini in una determinata materia e/o
+                    organizzare eventi sia scolastici, in cui rendere partecipi gli altri genitori (mercatini di Natale, feste, recite), sia extra-scolastici (serate tra genitori/insegnati ecc..)
+                </td>
+            </tr>
+            <tr>
+                <td>Chiedi aiuto o supporto ad altri genitori</td>
+                <td>Il genitore può contattare gli altri genitori per richiedere qualsiasi tipo di "supporto" (passaggio a scuola ecc) e/o informazione</td>
+            </tr>
+            <tr>
+                <td>Contatta l'insegnante</td>
+                <td>Il genitore può contattare l'insegnante in maniera "asincrona" (non sfruttando una chat diretta)</td>
+            </tr>
+            <tr>
+                <td>Chiedi consiglio ad un esperto</td>
+                <td>Il genitore può richiedere consulenza ad un esperto (psicologo, sessuologo ecc) nel caso in cui lo ritenga necessario per il proprio figlio</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <p> Targert secondario: <b> INSEGNANTI </b></p>
+
+    <div style="overflow-x:auto"> <!--TABELLE COSTANTI, AGGIUNTA DI CURSORE PER SCORRERE-->
+        <table>
+            <thead>
+            <tr>
+                <th>Funzionalità complete</th>
+                <th>Descrizione</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>Condividi la tua giornata in classe</td>
+                <td>L'insegnante può giornalmente tenere informati i genitori su ciò che è accaduto in classe</td>
+            </tr>
+            <tr>
+                <td>Condividi materiale didattico</td>
+                <td>L'insegnante può caricare del supporto didattico per i propri alunni</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3 id="funzionalita-da-implementare-dettagliate"> <br> Funzionalità dettagliate da implementare</h3>
+
+    <!--tabella-->
+    <p> Con "<b>(*)</b>" sono indicate le funzionalità uguali sia per genitori che per insegnanti </p>
+
+    <div style="overflow-x:auto">
+
+        <p> Targert principale: <b> GENITORI </b> </p>
+        <table>
+            <thead>
+            <tr>
+                <th> Macroarea </th>
+                <th> Funzionalità specifica </th>
+                <th> Descrizione</th>
+                <th>To do</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td> <b> Accesso </b> </td>
+                <td>Login</td>
+                <td>Accesso alla homepage </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td> <b>Registrazione</b> </td>
+                <td> Registrazione - passo 1 (*) </td>
+                <td> Inserimento dei propri dati social: caricamento immagine personale, email, password </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> Registrazione - passo 2 (*) </td>
+                <td> Inserimento dei propri dati anagrafici: nome, cognome, sesso, città </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td>  </td>
+                <td> Registrazione - passo 3 </td>
+                <td> Inserimento dei propri dati scuola: nome figlio, cognome figlio, scuola, classe, con possibilità di aggiungere più figli </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td> <b>Homepage</b> </td>
+                <td> Lista Insegnanti - Contatta (*) </td>
+                <td> Lista di insegnanti dalla quale sarà possibile accedere ai profili degli Insegnanti (con la possibilità dunque di contattarli tramite chat "asincrona") </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> Lista Genitori - Contatta (*) </td>
+                <td> Lista di genitori ai quali viene associato il nome del proprio figlio, con possibilità di contattarli tramite chat "asincrona"  </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td>  </td>
+                <td> Visualizzazione dei post pubblicati dagli insegnanti (*) </td>
+                <td> Il genitore potrà visualizzare giorno dopo giorno i post che verranno pubblicati dai vari insegnanti </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td>  </td>
+                <td> Calendario (*) </td>
+                <td> Visualizzazione data odierna con possibilità di aprire il calendario e selezionare una data diversa (per risalire a post datati) </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td>  </td>
+                <td> Eventi (*) </td>
+                <td> Tramite questo pulsante, l'utente ha accesso all'area dedicata agli eventi</td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td>  </td>
+                <td> Promemoria - notifica eventi (*) </td>
+                <td> In questa sezione l'utente visualizza tutti gli eventi del giorno (sia quelli a cui partecipa, sia quelli a cui non partecipa)</td>
+                <td> .... </td>
+            </tr>
+
+            <tr>
+                <td> <b> Eventi</b> </td>
+                <td> Calendario (*) </td>
+                <td> Nel calendario saranno evidenziati con colori diversi i giorni nei quali è programmato un evento (3 colori diversi per 3 tipologie di eventi diversi)
+                    Schiacciando su un determinato giorno, si visualizza l'evento relativo a tale giorno, con descrizione annessa. Di default, viene visualizzato l'evento relativo alla data odierna
+                </td>
+                <td> ... </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> Partecipa all'evento (*) </td>
+                <td> Agli eventi ai quali si è stati invitati, sotto la descrizione dell'evento, è associato il tasto Partecipa (si aggiornerà in tal modo la sezione "eventi a cui si parteciperà" nella pagina personale dell'utente) </td>
+                <td> ... </td>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td> Crea evento (*) </td>
+                <td> L'utente ha la possibilità di creare un evento, e di specificarlo al passo successivo </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> Crea evento "Scuola" (*) </td>
+                <td> Il genitore può organizzare eventi relativi alla scuola (mercatini di Natale, gite scolastiche, recite ecc ecc ), scegliendo di poterli
+                    condividere con gli insegnanti o i genitori</td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> Crea evento "Casa" </td>
+                <td> Il genitore può organizzare gruppi di studio a casa propria, fornendo il proprio supporto ai bambini in una determinata materia</td>
+                <td> ... </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> Crea evento "Extra" </td>
+                <td> Il genitore può organizzare eventi esterni alla scuola (partite a calcetto, incontri tra genitori/insegnanti, ecc ecc), scegliendo di poterli
+                    condividere con gli insegnanti o i genitori  </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> Condividi evento con  - notifica invito evento (*) </td>
+                <td> L'utente può, prima di finalizzare la creazione di un evento, scegliere di condividerlo con solo gli insegnanti, solo i genitori, o entrambi. In base a tale scelta,
+                    verrà inviata la notifica al relativo tipo di utente (nella sezione news eventi della pagina personale) </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td> <b>Profilo Personale </b> </td>
+                <td> Visualizzazione informazioni personali (*) </td>
+                <td> Verranno visualizzate alcune delle informazioni che l'utente ha inserito nella fase di registrazione </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> Notifiche Eventi (*) </td>
+                <td> L'utente visualizza gli eventi sia a cui è stato invitato (sezione "eventi a cui sono stato invitato"), sia gli
+                    eventi a cui ha deciso di partecipare (sezione "eventi a cui parteciperò") </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> Chiedi aiuto ad un esperto </td>
+                <td> Il genitore potrà chiedere l'aiuto di un esperto (psicologo, sessuologo...) qualora lo ritenesse necessario per il proprio figlio </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> Spazio genitori </td>
+                <td> Tramite il pulsante "spazio genitori", il genitore potrà accedere allo spazio di condivisione file a cui hanno accesso solo i genitori </td>
+                <td> .... </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> Area spazio genitori </td>
+                <td> In questa area, i genitori potranno condividere tra loro documenti e immagini vari </td>
+                <td> .... </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <p> Targert secondario: <b> INSEGNANTI </b> </p>
+
+        <div>
+            <table>
+                <thead>
+                <tr>
+                    <th> Macroarea </th>
+                    <th> Funzionalità specifica </th>
+                    <th> Descrizione</th>
+                    <th>To do</th>
+                </tr>
+                </thead>
+                <tr>
+                    <td> <b> Accesso </b> </td>
+                    <td> Login </td>
+                    <td> Accesso alla homepage </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td> <b>Registrazione</b> </td>
+                    <td> Registrazione - passo 1 (*) </td>
+                    <td> Inserimento dei propri dati social: caricamento immagine personale, email, password </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> Registrazione - passo 2 (*) </td>
+                    <td> Inserimento dei propri dati anagrafici: nome, cognome, sesso, città </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                <tr>
+                    <td> </td>
+                    <td> Registrazione - passo 3 </td>
+                    <td> Inserimento dei propri dati scuola: scuola, classe, materie, con possibilità di aggiungere più classi/materie </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                <tr>
+                    <td> <b>Homepage</b> </td>
+                    <td> Lista Insegnanti - Contatta (*) </td>
+                    <td> Lista di insegnanti dalla quale sarà possibile accedere ai profili degli Insegnanti (con la possibilità dunque di contattarli tramite chat "asincrona") </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> Lista Genitori - Contatta (*) </td>
+                    <td> Lista di genitori ai quali viene associato il nome del proprio figlio, con possibilità di contattarli tramite chat "asincrona"  </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td>  </td>
+                    <td> Visualizzazione dei post pubblicati dagli insegnanti (*) </td>
+                    <td> Il genitore potrà visualizzare giorno dopo giorno i post che verranno pubblicati dai vari insegnanti </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td>  </td>
+                    <td> Scrittura dei post </td>
+                    <td> L'insegnante aggiorna il diario giornalmente pubblicando dei post realitivi a ciò che è stato fatto in aula </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td>  </td>
+                    <td> Calendario (*) </td>
+                    <td> Visualizzazione data odierna con possibilità di aprire il calendario e selezionare una data diversa (per risalire a post datati) </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td>  </td>
+                    <td> Eventi (*) </td>
+                    <td> Tramite questo pulsante, l'utente ha accesso all'area dedicata agli eventi</td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td>  </td>
+                    <td> Promemoria - notifica eventi (*) </td>
+                    <td> In questa sezione l'utente visualizza tutti gli eventi del giorno (sia quelli a cui partecipa, sia quelli a cui non partecipa)</td>
+                    <td> .... </td>
+                </tr>
+
+                <tr>
+                    <td> <b> Eventi</b> </td>
+                    <td> Calendario (*) </td>
+                    <td> Nel calendario saranno evidenziati con colori diversi i giorni nei quali è programmato un evento (3 colori diversi per 3 tipologie di eventi diversi)
+                        Schiacciando su un determinato giorno, si visualizza l'evento relativo a tale giorno, con descrizione annessa. Di default, viene visualizzato l'evento relativo alla data odierna
+                    </td>
+                    <td> ... </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> Partecipa all'evento (*) </td>
+                    <td> Agli eventi ai quali si è stati invitati, sotto la descrizione dell'evento, è associato il tasto Partecipa (si aggiornerà in tal modo la sezione "eventi a cui si parteciperà" nella pagina personale dell'utente) </td>
+                    <td> ... </td>
+                </tr>
+
+                <tr>
+                    <td> </td>
+                    <td> Crea evento (*) </td>
+                    <td> L'utente ha la possibilità di creare un evento, e di specificarlo al passo successivo </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> Crea evento "Scuola" (*) </td>
+                    <td> Il genitore può organizzare eventi relativi alla scuola (mercatini di Natale, gite scolastiche, recite ecc ecc ), scegliendo di poterli
+                        condividere con gli insegnanti o i genitori</td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> Condividi evento con  - notifica invito evento (*) </td>
+                    <td> L'utente può, prima di finalizzare la creazione di un evento, scegliere di condividerlo con solo gli insegnanti, solo i genitori, o entrambi. In base a tale scelta,
+                        verrà inviata la notifica al relativo tipo di utente (nella sezione news eventi della pagina personale) </td>
+                    <td> .... </td>
+                </tr>
+
+                <tr>
+                    <td> <b>Profilo Personale </b> </td>
+                    <td> Visualizzazione informazioni personali (*) </td>
+                    <td> Verranno visualizzate alcune delle informazioni che l'utente ha inserito nella fase di registrazione </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> Notifiche Eventi (*) </td>
+                    <td> L'utente visualizza gli eventi sia a cui è stato invitato (sezione "eventi a cui sono stato invitato"), sia gli
+                        eventi a cui ha deciso di partecipare (sezione "eventi a cui parteciperò") </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> Materiale didattico - visualizza </td>
+                    <td> Gli insegnanti e i genitori potranno visualizzare il materiale didattico caricato dal docente </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> Materiale didattico - carica materiale </td>
+                    <td> L'insegnante avrà la possibilità di caricare del materiale didattico extra nella sezione "materiale didattico" </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> Materiale didattico - carica immagine </td>
+                    <td> L'insegnante potrà condividere immagini o foto </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> Materiale didattico - carica documento </td>
+                    <td> L'insegnante potrà condividere documenti utili ai fini didattici (svolgimento di determinati esercizi, ...) </td>
+                    <td> .... </td>
+                </tr>
+                <tr>
+                    <td>  </td>
+                    <td> Materiale didattico - carica video </td>
+                    <td> L'insegnante potrà condividere video (per far capire il metodo di spiegazione utilizzato in aula, per approfondire determinati argomenti trattati a lezione, ...) </td>
+                    <td> .... </td>
+                </tr>
+            </table>
+        </div>
+
+
+        <h3 id="architettura-dellinformazione"> <br> Architettura dell'informazione</h3>
+
+        <!--IMMAGINE FLOWCHART -->
+        <a href="images/Puzzle-FlowChart.png">
+            <img src="images/Puzzle-FlowChart.png" id="schema">
+        </a>
+        <!--NB: il problema del resize era dato dal fatto che -->
+        <!--l'attributo <p> aveva la prevalenza sull'immagine -->
+        <div class="subsection">
+            <h2 id="mockup">Mockup</h2>
+
+            <p>Inserire il mockup realizzato con Balsamiq</p>
+
+
+</body>
+</html>
