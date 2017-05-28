@@ -1,0 +1,85 @@
+body{
+    background-image: url(sfondo/InizioSito_50.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size:cover;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*INTRO*/
+
+    .intro img{
+        height:120px;
+        widht:50px;
+
+    }
+
+    .intro p{
+        font-family: "Hoefler Text";
+        font-size: 120%;
+        color: #b92c28;
+    }
+
+
+    /*videoIntro*/
+    #videoIntro {
+       padding-top: 5px;
+    }
+
+/*CONCEPT*/
+.concept{
+    padding-top: 60px;
+}
+
+.concept p{
+    padding-left:35px;
+    padding-top: 20px;
+}
+
+
+
+/*personas*/
+
+.personas{
+    alignment: center;
+}
+
+.persona img{
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+
+/* Chi siamo*/
+
+.team{
+    padding: 50px 0 80px;
+    text-align: center;
+    alignment: center;
+
+}
+.team h2{
+    text-align: left;
+}
+
+.team h4{
+    margin: 20px 0 20px;
+
+}
+
+.team p{
+    margin: 20px 0 20px;
+
+}
+
+.team img{
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+
+}
+
+
