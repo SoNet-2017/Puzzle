@@ -30,40 +30,21 @@ hr {
     border-color: #999999;
 }
 
-.brand,
+
+/*fuoir diario*/
 .pay-off {
     display: none;
+
 }
 
-.navbar-brand {
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 2px;
-}
 
+/*navbar*/
 .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
 }
 
-.img-full {
-    min-width: 100%;
-}
-
-.brand-before,
-.brand-name {
-    text-transform: capitalize;
-}
-
-.brand-before {
-    margin: 15px 0;
-}
-
-.brand-name {
-    margin: 0;
-    font-size: 4em;
-}
 
 .tagline-divider {
     margin: 15px auto 3px;
@@ -72,12 +53,16 @@ hr {
 }
 
 .box {
+    margin-top: 20px;
     margin-bottom: 20px;
-    padding: 30px 15px;
+    padding: 50px;
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
 
+
+
+/*titoli di ogni pagina */
 .intro-text {
     text-transform: uppercase;
     font-size: 1.25em;
@@ -85,10 +70,12 @@ hr {
     letter-spacing: 1px;
 }
 
+
+
 .img-border {
     float: none;
     margin: 0 auto 0;
-    border: #999999 solid 1px;
+    border: #b92a35 solid 2px;
 }
 
 .img-left {
@@ -96,15 +83,7 @@ hr {
     margin: 0 auto 0;
 }
 
-footer {
-    background: #fff;
-    background: rgba(255,255,255,0.9);
-}
 
-footer p {
-    margin: 0;
-    padding: 50px 0;
-}
 
 @media screen and (min-width:768px) {
     .brand {
@@ -191,4 +170,14 @@ footer p {
     #videoIntro{
         padding-top: 50px;
     }
+}
+
+
+
+#socloo{
+    padding-top: 80px;
+}
+
+#contenuti {
+    padding-top: 150px;
 }
