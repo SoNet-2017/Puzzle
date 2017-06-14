@@ -23,9 +23,16 @@ h3{
     font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     letter-spacing: 1px;
     font-size: 18px;
-    padding-left: 5px;
+
 }
 
+.genitori-insegnanti{
+    font-weight: 400;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-left: 5px;
+}
 p {
     font-size: 1.25em;
     line-height: 1.6;
