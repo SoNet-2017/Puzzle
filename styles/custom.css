@@ -189,3 +189,10 @@ hr {
 #contenuti {
     padding-top: 150px;
 }
+
+
+.modal-content{
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
