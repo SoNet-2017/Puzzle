@@ -26,6 +26,13 @@ h3{
 
 }
 
+.genitori-insegnanti{
+    font-weight: 400;
+    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-left: 5px;
+}
 p {
     font-size: 1.25em;
     line-height: 1.6;
@@ -38,35 +45,14 @@ hr {
 }
 
 
-/*fuori diario*/
+/*fuoir diario*/
 .pay-off {
     display: none;
 
 }
-/*titoli di ogni pagina */
-.intro-text {
-    text-transform: uppercase;
-    font-size: 1.50em;
-    font-weight: 400;
-    letter-spacing: 1px;
-}
 
 
-
-.img-border {
-    float: none;
-    margin: 0 auto 0;
-
-}
-
-.img-left {
-    float: none;
-    margin: 0 auto 0;
-}
-
-
-
-/*---------------------------------navbar--------------------------------*/
+/*navbar*/
 .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
@@ -90,15 +76,109 @@ hr {
 
 
 
-/*-------------------------- HOME -------------------------- */
-#videoIntro{
-    padding-top: 50px;
+/*titoli di ogni pagina */
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.50em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
 }
 
 
 
 
-/*--------------------------CONCEPT--------------------------- */
+
+/*----------------------------------------- FINE PERSONAS---------------------------------------------- */
+
+
+
+@media screen and (min-width:768px) {
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .pay-off {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: black;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    #img_puzzle {
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+
+    #videoIntro{
+        padding-top: 50px;
+    }
+}
 
 
 
@@ -109,37 +189,3 @@ hr {
 #contenuti {
     padding-top: 150px;
 }
-#img_puzzle {
-    padding-top: 5px;
-    padding-bottom: 20px;
-}
-
-
-
-
-
-
-
-/*--------------------------PERSONAS--------------------------- */
-
-
-
-
-
-
-
-
-
-
-
-/*----------------------------------------- FUNZIONALITA'---------------------------------------------- */
-.genitori-insegnanti{
-    font-weight: 400;
-    font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    letter-spacing: 1px;
-    font-size: 18px;
-    padding-left: 5px;
-}
-
-
-
