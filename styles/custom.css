@@ -92,6 +92,9 @@ a {
     padding-top: 150px;
 }
 
+ul{
+    margin-left: 15px;
+}
 
 /*modal*/
 .modal-content{
@@ -102,6 +105,22 @@ a {
 
 .modal-content .btn-default {
    margin-bottom: 10px;
+}
+
+.caption button,
+.personas-modal button{
+    margin-bottom: 10px;
+    background-color: #308E89;
+    color: white;
+}
+.caption button:hover,
+.caption button:focus,
+.caption button:active,
+.personas-modal button:hover,
+.personas-modal button:focus,
+.personas-modal button:active{
+    color: #dbdbdb;
+    border: 1px solid rgb(90,130,137);
 }
 /*fine concept*/
 
