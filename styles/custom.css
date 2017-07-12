@@ -15,12 +15,7 @@ body {
     background: rgba(255,255,255,0.9);
 }
 
-
-h1,
-h2,
-h4,
-h5,
-h6 {
+h1, h2, h4, h5, h6 {
     text-transform: uppercase;
     font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -35,7 +30,6 @@ h3{
 
 }
 
-
 p {
     font-size: 1.25em;
     line-height: 1.6;
@@ -47,13 +41,9 @@ hr {
     border-color: #999999;
 }
 
-
-/*fuoir diario*/
 .pay-off {
     display: none;
-
 }
-
 
 /*navbar*/
 .navbar-nav {
@@ -61,9 +51,6 @@ hr {
     font-weight: 400;
     letter-spacing: 3px;
 }
-
-
-
 
 /*titoli di ogni pagina */
 .intro-text {
@@ -73,12 +60,9 @@ hr {
     letter-spacing: 1px;
 }
 
-
-
 .img-border {
     float: none;
     margin: 0 auto 0;
-
 }
 
 .img-left {
@@ -86,8 +70,17 @@ hr {
     margin: 0 auto 0;
 }
 
+footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(255,255,255,0.9);
+    text-align: center;
+}
 
-
+a {
+    color: rgb(48,142,137);
+}
 
 /*concept*/
 
@@ -198,7 +191,7 @@ hr {
 
 
     #videoIntro{
-        padding-top: 50px;
+        padding-top: 30px;
     }
 }
 
